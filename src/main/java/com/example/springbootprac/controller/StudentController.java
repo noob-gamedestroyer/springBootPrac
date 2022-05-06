@@ -34,7 +34,6 @@ public class StudentController {
         sDetail.setId(id);
         sDetail.setName(name);
         sDetail.setUsn(usn);
-        System.out.println(sDetail);
         repo.save(sDetail);
     }
 }
